@@ -10,22 +10,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
-.game-container {
-    width: 1200px;
-    height: 600px;
-    background-color: rgb(184, 235, 108);
-    position: relative;
+canvas {
+    border: 1px solid black;
 }
-
-.sprite {
-    background-color: orangered;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: 375px;
-    top: 275px;
-}
-
