@@ -1,10 +1,10 @@
 export class Colliders {
-    constructor(posX, posY, width, height, color) {
+    constructor(posX, posY, width, height) {
         this.posX = posX,
         this.posY = posY,
         this.width = width,
         this.height = height,
-        this.color = color
+        this.color = 'transparent'
     }
 
     getHalfWidth() {
